@@ -1,0 +1,78 @@
+h1 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Regular", Helvetica, Arial, serif;
+    text-align: center;
+    font-size: 22pt;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Regular", Helvetica, Arial, serif;
+    text-align: left;
+    font-size: 22pt;
+}
+
+body {
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+
+
+}
+
+a.linkscolor {
+    color: #A4A400;
+}
+
+.hide {
+    display: none;
+}
+
+.myDIV:hover+.hide {
+    display: block;
+    color: red;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .header {
+    border-bottom: 1px solid gray;
+}
+
+.footer{
+    float: right;
+    align-items: right;
+}
+
+.comments{
+    background: #A4A400;
+}
