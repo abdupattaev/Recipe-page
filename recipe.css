@@ -73,6 +73,7 @@ a.linkscolor {
     text-align: right;
 }
 
-.comments{
+.comments p {
+    padding-left: 50px;
     background-color: #A4A400;
 }
